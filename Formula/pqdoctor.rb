@@ -1,22 +1,22 @@
 class Pqdoctor < Formula
   desc "Why isn't this server post-quantum? Handshake-only TLS probes, the cause and the fix"
   homepage "https://pqdoctor.com"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
-    url "https://pqdoctor.com/downloads/v0.2.1/pqdoctor-0.2.1-macos-universal.tar.gz"
-    sha256 "52fb423de0e387e460519b64867a8dbb9f493dab5b401befaa7e98fbae94cdf8"
+    url "https://pqdoctor.com/downloads/v0.3.0/pqdoctor-0.3.0-macos-universal.tar.gz"
+sha256 "a0d536c7055fcbf5b0721f46dc3f7a415f89b7782d4e4abd12dd53e81de815f3"
   end
 
   on_linux do
     on_intel do
-      url "https://pqdoctor.com/downloads/v0.2.1/pqdoctor-0.2.1-linux-x64.tar.gz"
-      sha256 "6be9049979c1d6377d6b3c49f1cbf3c280b6cec7b760ea998257139d74c4e727"
+      url "https://pqdoctor.com/downloads/v0.3.0/pqdoctor-0.3.0-linux-x64.tar.gz"
+sha256 "c903eb1dba8f33b0630ba367716cdb1491cd98eae504ce510afbf2efbeeba66e"
     end
     on_arm do
-      url "https://pqdoctor.com/downloads/v0.2.1/pqdoctor-0.2.1-linux-arm64.tar.gz"
-      sha256 "3ded3bcfd31b6e698e0800abe1c1a7d1e2ccfb7dc6b2e44c40d1970ec077d8ac"
+      url "https://pqdoctor.com/downloads/v0.3.0/pqdoctor-0.3.0-linux-arm64.tar.gz"
+sha256 "668d2b3382d262279d9b87febadea98ac31c78e3760a25c0d9c09574b72c3140"
     end
   end
 
