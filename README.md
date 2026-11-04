@@ -1,10 +1,10 @@
-# Kalyan-Deva/homebrew-tap
+# Kalyan-Deva/homebrew-tap (retired)
 
-Homebrew formulas for [pqdoctor](https://pqdoctor.com): why isn't this server post-quantum?
+pqdoctor is no longer distributed through Homebrew. Install it from npm or crates.io instead:
 
 ```sh
-brew install kalyan-deva/tap/pqdoctor
-pqdoctor --version
+npm install -g pqdoctor      # prebuilt, macOS 11+ (Apple silicon and Intel) and Linux
+cargo install pqdoctor       # from source, any OS with Rust 1.85+
 ```
 
-The formula installs the release binaries published on [pqdoctor.com/downloads](https://pqdoctor.com/get-started/downloads/) (macOS universal, Linux x86_64 and arm64), checked against their SHA-256. MIT licensed.
+If you installed it with this tap: `brew uninstall pqdoctor && brew untap kalyan-deva/tap`, then use one of the commands above. Docs: [pqdoctor.com](https://pqdoctor.com).
